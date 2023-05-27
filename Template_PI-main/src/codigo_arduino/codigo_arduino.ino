@@ -130,7 +130,12 @@ String FILE_PHOTO = caminhofoto;
 
 #define echo2 12 
 
-  
+
+#include <Stepper.h>
+
+const int stepsPerTurn = 500;
+
+Stepper stepper(stepsPerTurn, 8, 10, 9, 11);
 
 //variaveis ultrassonico 
 
@@ -438,7 +443,9 @@ void setup() {
 
   pinMode(ledestoque, OUTPUT); 
 
-} 
+
+  stepper.setSpeed(60);
+  } 
 
   
 
@@ -564,6 +571,10 @@ void loop() {
 
     digitalWrite(ledestoque, LOW); 
 
-  } 
+  }
+
+  for(int i = 0; i <= 10; i++) {
+    stepper.step(-100);
+      } 
 
 } 
