@@ -20,7 +20,10 @@
 </p>
 
 
-Nosso projeto consiste em um alimentador/mapeador automático para cães em situação de rua, através da placa Esp32-Cam faremos o monitoramento desses animais, quando o sensor ultrasônico captar o animal, irá liberar uma certa quantidade de ração e irá tirar uma foto do mesmo, com a ajuda de Ongs faremos o realocamentos dos cães em situação de rua.
+Nosso alimentador ficará em pontos estratégicos, e assim que um cachorro se aproximar, o sistema irá detectá-lo, capturar uma imagem do mesmo e liberar a abertura da porta, onde caíra uma porção de ração.
+Logo após, a liberação da ração ficará travada por um período de tempo, e após esse tempo, será liberada novamente quando outro cachorro se aproximar.
+As imagens dos animais, a data e a hora que se alimentaram serão enviadas ao nosso banco de dados e iremos disponilizar esses dados em nosso site onde ONGs poderão acessar para fazer o possível resgate desses cachorros.
+
 
 
 ## 🛠 Estrutura de pastas
