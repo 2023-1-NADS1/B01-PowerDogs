@@ -19,11 +19,13 @@
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
-<h1> Objetivos </h1>
-  Fornecer alimentos para cachorros em situação de rua, através de um alimentador automático. 
-<h1> Aplicação </h1>
- Através de um sensor de proximidade que irá detectar quando o animal se aproxima, fazendo com que seja liberada uma porção de ração
-  e através de imagens de uma câmera será feito o envio para ONG`s próximas que possam fazer o resgate do mesmo.
+<h1> OBJETIVO GERAL </h1>
+  Criar um alimentador/mapeador automático para cachorros em situação de rua, fornecendo alimentação regular e a chance desses cachorros serem levados à ONGs/abrigos onde serão cuidados, tratados e terão a chance de serem adotados.
+<h1> OBJETIVOS ESPECÍFICOS </h1>
+  -Através de uma ESP32 CAM captar imagens ds cahorros que se aproximam;
+  -Um sensor ultrassônico irá detectar a presença dos cachorros que se aproximam;
+  -Um sensor ultrassônico irá detectar quando o armazenamento de ração estiver quase vazio;
+  -Um motor de passo irá abrir uma porta que libera a porção de ração.
 
 
 
