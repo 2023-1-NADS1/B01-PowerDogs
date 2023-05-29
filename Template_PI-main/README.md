@@ -22,9 +22,9 @@
 <h1> OBJETIVO GERAL </h1>
   Criar um alimentador/mapeador automático para cachorros em situação de rua, fornecendo alimentação regular e a chance desses cachorros serem levados à ONGs/abrigos onde serão cuidados, tratados e terão a chance de serem adotados.
 <h1> OBJETIVOS ESPECÍFICOS </h1>
-  -Através de uma ESP32 CAM captar imagens ds cahorros que se aproximam;
-  -Um sensor ultrassônico irá detectar a presença dos cachorros que se aproximam;
-  -Um sensor ultrassônico irá detectar quando o armazenamento de ração estiver quase vazio;
+  -Através de uma ESP32 CAM captar imagens ds cahorros que se aproximam; <p>
+  -Um sensor ultrassônico irá detectar a presença dos cachorros que se aproximam;<p>
+  -Um sensor ultrassônico irá detectar quando o armazenamento de ração estiver quase vazio;<p>
   -Um motor de passo irá abrir uma porta que libera a porção de ração.
 
 
