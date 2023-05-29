@@ -20,7 +20,7 @@
 </p>
 
 <h1> Objetivos </h1>
-  Fornecer alimentos para cachorros em situação de rua, através de um alimentador automático 
+  Fornecer alimentos para cachorros em situação de rua, através de um alimentador automático. 
 <h1> Aplicação </h1>
  Através de um sensor de proximidade que irá detectar quando o animal se aproxima, fazendo com que seja liberada uma porção de racão
   e através de imagens de uma câmera será feito o envio para ONG`s próximas que possam fazer o resgate do mesmo.
