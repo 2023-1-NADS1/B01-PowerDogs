@@ -25,7 +25,7 @@
   -Através de uma ESP32 CAM captar imagens ds cahorros que se aproximam; <p>
   -Um sensor ultrassônico irá detectar a presença dos cachorros que se aproximam;<p>
   -Um sensor ultrassônico irá detectar quando o armazenamento de ração estiver quase vazio;<p>
-  -Um motor de passo irá abrir uma porta que libera a porção de ração.
+  -Um motor de passo irá abrir uma porta que libera a porção de ração.<p>
 
 
 
