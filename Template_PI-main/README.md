@@ -19,10 +19,11 @@
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
-<h1> Como funciona </h1>
-Nosso alimentador ficará em pontos estratégicos, e assim que um cachorro se aproximar, o sistema irá detectá-lo, capturar uma imagem do mesmo e liberar a abertura da porta, onde caíra uma porção de ração.
-Logo após, a liberação da ração ficará travada por um período de tempo, e após esse tempo, será liberada novamente quando outro cachorro se aproximar.
-As imagens dos animais, a data e a hora que se alimentaram serão enviadas ao nosso banco de dados e iremos disponilizar esses dados em nosso site onde ONGs poderão acessar para fazer o possível resgate desses cachorros.
+<h1> Objetivos </h1>
+  Fornecer alimentos para cachorros em situação de rua, através de um alimentador automático 
+<h1> Aplicação </h1>
+ Através de um sensor de proximidade que irá detectar quando o animal se aproxima, fazendo com que seja liberada uma porção de racão
+  e através de imagens de uma câmera será feito o envio para ONG`s próximas que possam fazer o resgate do mesmo.
 
 
 
