@@ -46,7 +46,6 @@
   &emsp;|-->arduino.png<br>
 |-->src/codigo_arduino<br>
   &emsp;|-->codigo_arduino.ino<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
