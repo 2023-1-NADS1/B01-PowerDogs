@@ -39,14 +39,13 @@
 |<br>
 |-->documentos<br>
   &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
+  &emsp;|-->Placeholder.txt<br>
 |-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
+  &emsp;|-->Bootstrap_5.0_Screenshot.png<br>
+  &emsp;|-->POWERDOGS - REDES.png<br>
+  &emsp;|-->arduino.png<br>
+|-->src/codigo_arduino<br>
+  &emsp;|-->codigo_arduino.ino<br>
   &emsp;|-->Frontend<br>
 |readme.md<br>
 
