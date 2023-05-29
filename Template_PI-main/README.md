@@ -8,7 +8,7 @@
 
 ## PowerDogs
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Gabriel Pastor</a>, <a href="https://www.linkedin.com/in/victorbarq/">Luigi Consentino</a>, <a href="https://www.linkedin.com/in/mateus-piccinin-773a2a204/">Mateus Piccinin</a>, <a href="https://www.linkedin.com/in/mateus-macedo-934a81238/">Mateus Macedo</a>, <a href="https://www.linkedin.com/in/pedro-henrique-830892235/">Pedro Henrique</a>
+## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Gabriel Pastor</a>, <a href="https://www.linkedin.com/in/luigi-consentino-144566265/">Luigi Consentino</a>, <a href="https://www.linkedin.com/in/mateus-piccinin-773a2a204/">Mateus Piccinin</a>, <a href="https://www.linkedin.com/in/mateus-macedo-934a81238/">Mateus Macedo</a>, <a href="https://www.linkedin.com/in/pedro-henrique-830892235/">Pedro Henrique</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/ronaldo-araujo-pinto-3542811a/">Ronaldo Araujo</a>, <a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/">Eduardo Savino</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno</a>
 
