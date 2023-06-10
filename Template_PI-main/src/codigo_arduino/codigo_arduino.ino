@@ -520,7 +520,13 @@ void loop() {
    {
 
     for(int i = 0; i <= 10; i++) {
-    stepper.step(100);
+    stepper.step(100);}
+
+    delay (7000);
+
+    for(int i = 0; i <= 10; i++) {
+    stepper.step(-100);
+      } 
    }
     
    
