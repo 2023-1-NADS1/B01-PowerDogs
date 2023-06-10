@@ -1,39 +1,12 @@
-********* 
-
-  Rui Santos 
-
-  Complete instructions at: https://RandomNerdTutorials.com/esp32-cam-save-picture-firebase-storage/ 
-
-  
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files. 
-
-  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
-
-  
-
-  Based on the example provided by the ESP Firebase Client Library 
-
-*********/ 
-
-  
 
 #include "WiFi.h" 
-
 #include "esp_camera.h" 
-
 #include "Arduino.h" 
-
 #include "soc/soc.h"           // Disable brownout problems 
-
 #include "soc/rtc_cntl_reg.h"  // Disable brownout problems 
-
 #include "driver/rtc_io.h" 
-
 #include <SPIFFS.h> 
-
 #include <FS.h> 
-
 #include <Firebase_ESP_Client.h> 
 
 //Provide the token generation process info. 
@@ -451,48 +424,6 @@ void setup() {
 
 void loop() { 
 
-  if (takeNewPhoto) { 
-
-    contador++; 
-
-    caminhofoto = "/data/photo"+String(contador)+".jpg"; 
-
-     FILE_PHOTO = caminhofoto; 
-
-    capturePhotoSaveSpiffs(); 
-
-    takeNewPhoto = false; 
-
-  } 
-
-  delay(1); 
-
-  if (Firebase.ready() && !taskCompleted){ 
-
-    taskCompleted = true; 
-
-    Serial.print("Uploading picture... "); 
-
-  
-
-    //MIME type should be valid to avoid the download problem. 
-
-    //The file systems for flash and SD/SDMMC can be changed in FirebaseFS.h. 
-
-    if (Firebase.Storage.upload(&fbdo, STORAGE_BUCKET_ID /* Firebase Storage bucket id */, FILE_PHOTO /* path to local file */, mem_storage_type_flash /* memory storage type, mem_storage_type_flash and mem_storage_type_sd */, FILE_PHOTO /* path of remote file stored in the bucket */, "image/jpeg" /* mime type */)){ 
-
-      Serial.printf("\nDownload URL: %s\n", fbdo.downloadURL().c_str()); 
-
-    } 
-
-    else{ 
-
-      Serial.println(fbdo.errorReason()); 
-
-    } 
-
-  } 
-
   
 
   //loop ultrassonico 
@@ -539,6 +470,59 @@ void loop() {
 
   delay(100); 
 
+  if (takeNewPhoto) { 
+
+    contador++; 
+
+    caminhofoto = "/data/photo"+String(contador)+".jpg"; 
+
+     FILE_PHOTO = caminhofoto; 
+
+    capturePhotoSaveSpiffs(); 
+
+    takeNewPhoto = false; 
+
+  } 
+
+  delay(1); 
+
+  if (Firebase.ready() && !taskCompleted){ 
+
+    taskCompleted = true; 
+
+    Serial.print("Uploading picture... "); 
+
+  
+
+    //MIME type should be valid to avoid the download problem. 
+
+    //The file systems for flash and SD/SDMMC can be changed in FirebaseFS.h. 
+
+    if (Firebase.Storage.upload(&fbdo, STORAGE_BUCKET_ID /* Firebase Storage bucket id */, FILE_PHOTO /* path to local file */, mem_storage_type_flash /* memory storage type, mem_storage_type_flash and mem_storage_type_sd */, FILE_PHOTO /* path of remote file stored in the bucket */, "image/jpeg" /* mime type */)){ 
+
+      Serial.printf("\nDownload URL: %s\n", fbdo.downloadURL().c_str()); 
+
+    } 
+
+    else{ 
+
+      Serial.println(fbdo.errorReason()); 
+
+    } 
+
+  } 
+   
+   if (distancia <100 ){
+    takeNewPhoto;
+   }
+
+   if (distancia <100)
+   {
+
+    for(int i = 0; i <= 10; i++) {
+    stepper.step(100);
+   }
+    
    
 
   if(distancia < 100){ 
